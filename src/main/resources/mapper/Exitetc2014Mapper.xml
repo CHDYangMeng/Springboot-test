@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jtkj.mapper.Exitetc2014Mapper">
+  <resultMap id="BaseResultMap" type="com.jtkj.entity.Exitetc2014">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="entryStation" jdbcType="VARCHAR" property="entrystation" />
+    <result column="entryTime" jdbcType="DATE" property="entrytime" />
+    <result column="exitStation" jdbcType="VARCHAR" property="exitstation" />
+    <result column="exitTime" jdbcType="DATE" property="exittime" />
+    <result column="total" jdbcType="INTEGER" property="total" />
+    <result column="car" jdbcType="VARCHAR" property="car" />
+    <result column="lat" jdbcType="DOUBLE" property="lat" />
+    <result column="lng" jdbcType="DOUBLE" property="lng" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jtkj.mapper.StationInfoMapper">
+  <resultMap id="BaseResultMap" type="com.jtkj.entity.StationInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Name" jdbcType="VARCHAR" property="name" />
+    <result column="Province" jdbcType="VARCHAR" property="province" />
+    <result column="City" jdbcType="VARCHAR" property="city" />
+    <result column="Area" jdbcType="VARCHAR" property="area" />
+    <result column="Lat" jdbcType="VARCHAR" property="lat" />
+    <result column="Lng" jdbcType="VARCHAR" property="lng" />
+    <result column="Address" jdbcType="VARCHAR" property="address" />
+  </resultMap>
+</mapper>
